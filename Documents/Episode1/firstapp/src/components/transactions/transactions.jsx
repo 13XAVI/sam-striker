@@ -72,7 +72,7 @@ function Transactions() {
   
     const expense = transactions
       .filter((transaction) => transaction.type === "expense")
-      .reduce((sum, transaction) => sum - parseFloat(transaction.amount), 0);
+      .reduce((sum, transaction) => sum + parseFloat(transaction.amount), 0);
   
     const totalAmount = income - expense;
     setIncomeSum(income);
@@ -111,12 +111,7 @@ function Transactions() {
             Total Amount 
           </h1>
             <span className="total-amount">$
-            {transactions
-              .reduce(
-                (acc, transaction) => acc + parseFloat(transaction.amount),
-                0
-              )
-              .toLocaleString()}
+            {incomeSum - expenseSum}
               </span>
         </div>
       </div>
