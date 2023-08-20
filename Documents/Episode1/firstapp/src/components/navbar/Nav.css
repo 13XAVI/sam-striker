@@ -1,0 +1,38 @@
+/* Nav.css */
+.appNav {
+    width: 100%;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    padding: 10px 20px;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+  }
+  
+  .LinkA {
+    margin-right: 20px;
+  }
+  
+  .LinkA a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .LinkA a:hover{
+    border-bottom: 1px solid gold;
+    
+  }
+
+  .menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+  }

@@ -1,0 +1,168 @@
+.App {
+    text-align: center;
+    margin: 10px;
+  }
+  
+
+  .budget-exceeded button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .laber-in-transactions{
+    flex:1;
+    flex-direction: wrap;
+  }
+  
+  .App-main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 20px;
+  }
+  
+  .transaction-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .selectType {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .selectType select {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  
+  .transaction-label, .transaction-select{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
+  .transaction-form input,
+  .transaction-form select {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  
+  }
+  
+  .transaction-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .transaction-list {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .transaction-list table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .transaction-list th,
+  .transaction-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .transaction-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .transaction-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .transaction-list tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Report.css */
+  .budget-cards {
+    border-radius: 8px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .income,
+  .expense,
+  .total {
+    margin-left: 20px;
+    padding: 20px;
+    border-width: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .expense .budget-amount {
+    color: #ff0000;
+  }
+  
+  .budget-title,.total-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+
+
+.budget-amount,.total-amount {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.budget-exceeds {
+  font-size: 1rem;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.budget-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.budget-button:hover {
+  background-color: #0056b3;
+}
+.cards{
+  margin-top: 40px;
+  display: flex;
+ justify-content: center;
+  gap: 3em;
+}
+
+  
+  
